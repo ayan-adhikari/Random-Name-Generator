@@ -1,0 +1,68 @@
+/*=============================
+   Color Variables (transparent/black is a placeholder)
+=============================*/
+:root {
+    --main: transparent;
+    --secondary: transparent; /*Lighter version of main*/
+    --accent-1: transparent;
+    --accent-2: transparent;
+    --text: black;
+}
+
+/*=============================
+   Background + Text Colors
+=============================*/
+.main-bg {
+    background-color: var(--main);
+}
+
+.secondary-bg {
+    background-color: var(--secondary);
+}
+
+.accent-1 {
+    background-color: var(--accent-1);
+}
+
+.accent-2 {
+    background-color: var(--accent-2);
+}
+
+.text {
+    color: var(--text);
+}
+/*=============================
+   Header
+=============================*/
+.header {
+    /*Flexbox settings*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    /*Background color (transparent by default)*/
+    background-color: transparent;
+    
+    /*Text and Padding settings*/
+    text-align: center;
+    font-size: clamp(2.5rem, 4vw, 5rem);
+    min-height: 3rem;
+    padding: 1rem 0;
+    margin-bottom: clamp(1rem, 1vh, 10rem);
+}
+
+/*=============================
+Text size and font formatting
+=============================*/
+.header-text
+{
+font-size: clamp(3rem, 2vw, 5rem);
+}
+.subheading-text
+{
+font-size: clamp(2rem, 1.5vw, 3rem);
+}
+.body-text
+{
+font-size: clamp(1rem, 1.2vw, 1.3rem);
+}
