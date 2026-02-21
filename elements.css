@@ -1,14 +1,14 @@
 /*Button Styling (dodgerblue is a default)*/
 .button {
   /*Background/Border styling*/
-  background-color: transparent;
+  background-color: #fff;
   border-style: solid;
   border-width: 0.125rem;
-  border-color: transparent;
+  border-color: var(--accent-1);
   border-radius: 0.125rem;
   /*Padding/Text styling*/
   padding: 0.5rem 1rem;
-  font-size: 1rem;
+  font-size: 1.5rem;
   /*Transition durations*/
   transition:
     background-color 0.5s ease-in-out,
@@ -21,9 +21,18 @@
 .button:hover {
   /*Cursor styling*/
   cursor: pointer;
-  background-color: transparent;
-  color: transparent;
+  background-color: var(--accent-1);
+  color: #fff;
 }
 .button:active {
   transform: scale(0.9);
+}
+.accent-2-button
+{
+  border-color: var(--accent-2);
+
+}
+.accent-2-button:hover
+{
+  background-color: var(--accent-2);
 }

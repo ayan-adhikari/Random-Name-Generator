@@ -45,10 +45,10 @@
     
     /*Text and Padding settings*/
     text-align: center;
-    font-size: clamp(2.5rem, 3vw, 5rem);
-    min-height: 3rem;
-    padding: 1rem 0;
-    margin-bottom: clamp(1rem, 1vh, 10rem);
+    font-size: clamp(1rem, 2.5vw, 5rem);
+    min-height: 1.5rem;
+    padding: 0.5rem 0;
+    /*margin-bottom: clamp(0.5rem, 0.5vh, 3rem);*/
     font-family: "Montserrat", sans-serif;
 }
 
@@ -67,6 +67,18 @@ Text size and font formatting
 }
 .body-text
 {
-    font-size: clamp(1rem, 1.2vw, 1.3rem);
+    font-size: clamp(1rem, 1.4vw, 1.3rem);
     font-family: "Inter", sans-serif;
+}
+.centered-text
+{
+    text-align: center;
+}
+#text
+{
+    min-height: 1.3rem;
+}
+.width-100
+{
+    width: 99vw;
 }

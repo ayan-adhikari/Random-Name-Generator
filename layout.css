@@ -18,3 +18,20 @@
   align-items: center;
   flex-direction: column;
 }
+.category-button-grid
+{
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+.display-none
+{
+    display: none;
+}
+@media screen and (min-width: 600px)
+{
+  .category-button-grid
+  {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
