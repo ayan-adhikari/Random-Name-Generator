@@ -100,7 +100,6 @@ famousPeopleButton.addEventListener(`click`, () => setCategory(`famousPeople`))
 //Objects to store names
 const names = {
   regular: {
-<<<<<<< HEAD
     firstNames: [
   "John", "Emily", "Michael", "James", "David", "Robert", "William", "Christopher", "Joseph", "Daniel",
   "Matthew", "Thomas", "Richard", "Anthony", "Charles", "Joshua", "Andrew", "Mark", "Steven", "Kevin",
@@ -170,9 +169,7 @@ const names = {
   "Elliot", "Everett", "Franklin", "Garrett", "Harvey", "Jerome", "Luther", "Milton", "Norman", "Orville",
   "Percy", "Quincy", "Randolph", "Reginald", "Roland", "Sterling", "Sylvester", "Thaddeus", "Wallace", "Warren",
   "Wilbur", "Alfreda", "Bernice", "Claudine", "Dorothy", "Ethel", "Gertrude", "Gladys", "Hattie", "Henrietta",
-  "Ida", "Josephine", "Laverne", "Loretta", "Louise", "Mabel", "Minnie", "Opal", "Pearl", "Velma"
-=======
-    firstNames: ["John", "Emily", "Michael",
+  "Ida", "Josephine", "Laverne", "Loretta", "Louise", "Mabel", "Minnie", "Opal", "Pearl", "Velma", "John", "Emily", "Michael",
   "James", "David", "Robert", "William", "Christopher", "Joseph", "Daniel",
   "Matthew", "Thomas", "Richard", "Anthony", "Charles", "Joshua", "Andrew",
   "Mark", "Steven", "Kevin", "Brian", "George", "Edward", "Paul", "Timothy",
@@ -207,7 +204,6 @@ const names = {
   "Lucy", "Maya", "Nevaeh", "Skylar", "Stella", "Violet", "Audrey",
   "Caroline", "Ellie", "Hazel", "Layla", "Lillian", "Madeline", "Naomi",
   "Penelope", "Ruby", "Scarlett", "Sofia", "Sydney", "Trinity"
->>>>>>> ee01ae87b35c13c5136c4fe17153920f589759b5
 ],
   surnames:[
   "Smith", "Brown", "Johnson", "Williams", "Jones", "Garcia", "Miller", "Davis", "Rodriguez", "Martinez",
@@ -501,5 +497,5 @@ const names = {
   "Knowles", "Swift", "Adkins", "Fenty", "West", "Z", "Graham",
   "Lamar", "Eilish", "Styles", "Sheeran", "Timberlake", "Gomez", "Mebarak"
 ]
-  }
-};
+}
+}
