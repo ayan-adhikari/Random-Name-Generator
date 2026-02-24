@@ -100,6 +100,7 @@ famousPeopleButton.addEventListener(`click`, () => setCategory(`famousPeople`))
 //Objects to store names
 const names = {
   regular: {
+<<<<<<< HEAD
     firstNames: [
   "John", "Emily", "Michael", "James", "David", "Robert", "William", "Christopher", "Joseph", "Daniel",
   "Matthew", "Thomas", "Richard", "Anthony", "Charles", "Joshua", "Andrew", "Mark", "Steven", "Kevin",
@@ -170,6 +171,43 @@ const names = {
   "Percy", "Quincy", "Randolph", "Reginald", "Roland", "Sterling", "Sylvester", "Thaddeus", "Wallace", "Warren",
   "Wilbur", "Alfreda", "Bernice", "Claudine", "Dorothy", "Ethel", "Gertrude", "Gladys", "Hattie", "Henrietta",
   "Ida", "Josephine", "Laverne", "Loretta", "Louise", "Mabel", "Minnie", "Opal", "Pearl", "Velma"
+=======
+    firstNames: ["John", "Emily", "Michael",
+  "James", "David", "Robert", "William", "Christopher", "Joseph", "Daniel",
+  "Matthew", "Thomas", "Richard", "Anthony", "Charles", "Joshua", "Andrew",
+  "Mark", "Steven", "Kevin", "Brian", "George", "Edward", "Paul", "Timothy",
+  "Ronald", "Kenneth", "Jason", "Jeffrey", "Ryan", "Jacob", "Nicholas",
+  "Eric", "Jonathan", "Brandon", "Justin", "Scott", "Benjamin", "Samuel",
+  "Gregory", "Alexander", "Patrick", "Frank", "Stephen", "Raymond", "Jack",
+  "Dennis", "Jerry", "Tyler", "Aaron", "Jose", "Henry", "Adam", "Nathan",
+  "Douglas", "Peter", "Zachary", "Kyle", "Walter", "Harold", "Jeremy",
+  "Christian", "Keith", "Roger", "Noah", "Lawrence", "Terry", "Sean",
+  "Austin", "Arthur", "Carl", "Bruce", "Jordan", "Jesse", "Bryan", "Billy",
+  "Joe", "Ethan", "Albert", "Willie", "Gabriel", "Logan", "Alan", "Juan",
+  "Wayne", "Roy", "Ralph", "Randy", "Philip", "Louis", "Vincent", "Bobby",
+  "Johnny", "Dylan", "Victor", "Russell", "Elijah", "Mason", "Clarence",
+  "Eugene", "Manuel", "Ray", "Stanley", "Leonard", "Oscar", "Andre",
+  "Martin", "Ernest", "Theodore", "Caleb", "Connor", "Cameron", "Cole",
+  "Travis", "Derek", "Corey", "Shawn", "Edwin", "Antonio", "Miguel",
+  "Xavier", "Dominic", "Chad", "Troy", "Blake", "Seth", "Lucas", "Hunter",
+  "Owen", "Diego", "Carlos", "Adrian", "Ivan", "Jaden", "Jayden",
+  "Isaiah", "Levi", "Max", "Julian", "Gavin", "Evan", "Aiden", "Brayden",
+  "Cody", "Colton", "Damian", "Dustin", "Grant", "Hayden", "Jorge",
+  "Kaleb", "Liam", "Marcus", "Micah", "Nolan", "Preston", "Riley", "Spencer",
+  "Trevor", "Victor", "Wyatt", "Ashton", "Brody", "Carter", "Cooper",
+  "Dakota", "Devin", "Elias", "Emmanuel", "Finn", "Grayson", "Harrison",
+  "Jaxon", "Josiah", "Kingston", "Landon", "Malachi", "Miles", "Parker",
+  "Roman", "Sawyer", "Silas", "Trenton", "Tyson", "Zane", "Amelia",
+  "Ava", "Sophia", "Isabella", "Mia", "Chfarlotte", "Olivia", "Abigail",
+  "Madison", "Ella", "Grace", "Chloe", "Victoria", "Natalie", "Hannah",
+  "Samantha", "Sarah", "Elizabeth", "Ashley", "Taylor", "Jessica", "Lauren",
+  "Kayla", "Anna", "Megan", "Rachel", "Julia", "Katherine", "Nicole",
+  "Alexis", "Brianna", "Hailey", "Lily", "Addison", "Brooklyn", "Zoe",
+  "Savannah", "Allison", "Alyssa", "Claire", "Gabriella", "Kylie", "Leah",
+  "Lucy", "Maya", "Nevaeh", "Skylar", "Stella", "Violet", "Audrey",
+  "Caroline", "Ellie", "Hazel", "Layla", "Lillian", "Madeline", "Naomi",
+  "Penelope", "Ruby", "Scarlett", "Sofia", "Sydney", "Trinity"
+>>>>>>> ee01ae87b35c13c5136c4fe17153920f589759b5
 ],
   surnames:[
   "Smith", "Brown", "Johnson", "Williams", "Jones", "Garcia", "Miller", "Davis", "Rodriguez", "Martinez",
@@ -463,5 +501,10 @@ const names = {
   "Knowles", "Swift", "Adkins", "Fenty", "West", "Z", "Graham",
   "Lamar", "Eilish", "Styles", "Sheeran", "Timberlake", "Gomez", "Mebarak"
 ]
+<<<<<<< HEAD
 }
 };
+=======
+  }
+};
+>>>>>>> ee01ae87b35c13c5136c4fe17153920f589759b5
