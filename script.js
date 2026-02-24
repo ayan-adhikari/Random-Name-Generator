@@ -501,10 +501,5 @@ const names = {
   "Knowles", "Swift", "Adkins", "Fenty", "West", "Z", "Graham",
   "Lamar", "Eilish", "Styles", "Sheeran", "Timberlake", "Gomez", "Mebarak"
 ]
-<<<<<<< HEAD
 }
 };
-=======
-  }
-};
->>>>>>> ee01ae87b35c13c5136c4fe17153920f589759b5
